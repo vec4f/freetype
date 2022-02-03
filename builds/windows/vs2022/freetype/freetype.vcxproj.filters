@@ -888,6 +888,9 @@
     <ClInclude Include="..\..\..\..\src\otvalid\otvmod.h">
       <Filter>Source Files\otvalid</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\..\include\ft2build.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\..\src\autofit\afblue.c">
@@ -925,9 +928,6 @@
     </ClCompile>
     <ClCompile Include="..\..\..\..\src\autofit\autofit.c">
       <Filter>Source Files\autofit</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\src\base\ftadvanc.c">
-      <Filter>Source Files\base</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\..\src\base\ftbase.c">
       <Filter>Source Files\base</Filter>
@@ -1507,6 +1507,9 @@
     </ClCompile>
     <ClCompile Include="..\..\..\..\src\otvalid\otvmod.c">
       <Filter>Source Files\otvalid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\base\ftadvanc.c">
+      <Filter>Source Files\base</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
